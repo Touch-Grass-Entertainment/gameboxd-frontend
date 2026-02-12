@@ -71,3 +71,5 @@ export default defineConfig([
   },
 ])
 ```
+
+Made with <3 
