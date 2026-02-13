@@ -7,6 +7,13 @@ function ThemeToggle() {
     const handleToggle = () => {
         if(theme === 'light') setTheme('dark');
         if(theme === 'dark') setTheme('light');
+        if (theme === "system") {
+            const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+                .matches
+                ? "dark"
+                : "light";
+            setTheme(systemTheme);
+        }
     }
 
     return (
