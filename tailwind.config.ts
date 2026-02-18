@@ -6,7 +6,12 @@ const config: Config = {
     "./src/**/*.{ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        serif: ["Playfair Display", "serif"]
+      },
+    },
   },
   plugins: [],
 }
