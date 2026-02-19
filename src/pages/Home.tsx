@@ -1,7 +1,7 @@
 // import { getTopRated } from "@/api/games";
 // import { useEffect, useState } from "react";
 
-import { Banner } from "@/components/Home";
+import { Banner, TopRated } from "@/components/Home";
 
 function Home() {
     // const [topGames, setTopGames] = useState([]);
@@ -14,7 +14,7 @@ function Home() {
     //     fetchGames();
     // }, [])
     return (
-        <div className='size-full flex flex-col'>
+        <div className='size-full flex flex-col px-10 py-15'>
             {/* <div>
                 {topGames && topGames.map(game => (
                     <div>
@@ -22,8 +22,9 @@ function Home() {
                     </div>
                 ))}
             </div> */}
-            <div>
+            <div className='flex flex-col'>
                 <Banner />
+                <TopRated />
             </div>
         </div>
     )
