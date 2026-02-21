@@ -427,3 +427,62 @@ export const mockGamesDataResponse: GamesResponse = {
   nofollow: false,
   description: "",
 };
+
+export const mockGenresData = [
+  {
+    id: 4,
+    name: "Action",
+    slug: "action",
+    games_count: 191437,
+    image_background: "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg",
+  },
+  {
+    id: 5,
+    name: "RPG",
+    slug: "role-playing-games-rpg",
+    games_count: 61907,
+    image_background: "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg",
+  },
+  {
+    id: 10,
+    name: "Strategy",
+    slug: "strategy",
+    games_count: 56087,
+    image_background: "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f0d4db8.jpg",
+  },
+  {
+    id: 2,
+    name: "Shooter",
+    slug: "shooter",
+    games_count: 72341,
+    image_background: "https://media.rawg.io/media/games/8b6/8b6ede621fdffb2b4ae19271f7d17ccc.jpg",
+  },
+  {
+    id: 3,
+    name: "Adventure",
+    slug: "adventure",
+    games_count: 151621,
+    image_background: "https://media.rawg.io/media/games/4e6/4e6e8e7f50c237d76f38f3c885dae3d2.jpg",
+  },
+  {
+    id: 14,
+    name: "Puzzle",
+    slug: "puzzle",
+    games_count: 97330,
+    image_background: "https://media.rawg.io/media/games/c5e/c5eace4adef0a1c4a77d47ce66216dfa.jpg",
+  },
+  {
+    id: 15,
+    name: "Sports",
+    slug: "sports",
+    games_count: 42356,
+    image_background: "https://media.rawg.io/media/games/0ca/0cac0acd34e54eaf67629d6fab4c5abf.jpg",
+  },
+  {
+    id: 6,
+    name: "Fighting",
+    slug: "fighting",
+    games_count: 8785,
+    image_background: "https://media.rawg.io/media/games/2a1/2a12d1f62e32c29f75f0c5c9dd1a0ebc.jpg",
+  },
+];

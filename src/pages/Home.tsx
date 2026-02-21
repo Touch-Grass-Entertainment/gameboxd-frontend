@@ -1,7 +1,7 @@
 // import { getTopRated } from "@/api/games";
 // import { useEffect, useState } from "react";
 
-import { Banner, PopularGames, TopRated } from "@/components/Home";
+import { Banner, GameCards, TopRated } from "@/components/Home";
 
 function Home() {
     // const [topGames, setTopGames] = useState([]);
@@ -24,7 +24,13 @@ function Home() {
             </div> */}
             <div className='flex flex-col'>
                 <Banner />
-                <PopularGames />
+                <div className='flex flex-col mt-10'>
+                    <div className='flex items-center gap-2'>
+                        <span className='text-sm text-muted tracking-widest'>POPULAR RIGHT NOW</span>
+                        <div className='flex-1 h-px bg-border' />
+                    </div>
+                </div>
+                <GameCards />
                 <TopRated />
             </div>
         </div>
