@@ -138,7 +138,7 @@ export const mockGamesDataResponse: GamesResponse = {
       name: "Red Dead Redemption 2",
       released: "2018-10-26",
       tba: false,
-      background_image: "https://media.rawg.io/media/games/511/5118aff5091cb3efecb13275fbc72c92.jpg",
+      background_image: "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg",
       rating: 4.37,
       rating_top: 5,
       ratings: [
@@ -236,7 +236,7 @@ export const mockGamesDataResponse: GamesResponse = {
       name: "The Witcher 3: Wild Hunt",
       released: "2015-05-19",
       tba: false,
-      background_image: "https://media.rawg.io/media/games/26d/26d4437715e1326f6369188f185caac7.jpg",
+      background_image: "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
       rating: 4.36,
       rating_top: 5,
       ratings: [
@@ -334,7 +334,7 @@ export const mockGamesDataResponse: GamesResponse = {
       name: "Half-Life 2",
       released: "2004-11-16",
       tba: false,
-      background_image: "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96b3af8a7ce8ecd7.jpg",
+      background_image: "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg",
       rating: 4.35,
       rating_top: 5,
       ratings: [

@@ -1,7 +1,7 @@
 // import { getTopRated } from "@/api/games";
 // import { useEffect, useState } from "react";
 
-import { Banner, TopRated } from "@/components/Home";
+import { Banner, PopularGames, TopRated } from "@/components/Home";
 
 function Home() {
     // const [topGames, setTopGames] = useState([]);
@@ -24,6 +24,7 @@ function Home() {
             </div> */}
             <div className='flex flex-col'>
                 <Banner />
+                <PopularGames />
                 <TopRated />
             </div>
         </div>
